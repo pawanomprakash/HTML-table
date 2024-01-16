@@ -2,39 +2,35 @@
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 body{
-  background-color: rgb(256, 216, 216); 
-  /* background-color: rgb(247, 91, 117); */
+  background-color: #ffe3e3; 
   font-family: 'Open Sans', sans-serif;
 }
 table{
   border-collapse: collapse;
   text-align: center;
   background-color: white;
-  /* border-bottom: 1px solid red ; */
   box-shadow: 0px 10px 30px 5px grey;
   margin-left: auto;
   margin-right: auto;
-  /* margin-top: auto;
-  margin-bottom: auto; */
 
 }
-th{background-color: red;
+th{background-color: #e70010;
   color:white;
-   padding:15px 15px; 
+   padding:20px; 
 
 }
  td{
-   padding: 15px 15px; 
+   padding: 20px; 
 
 }
 tr{
-  border-bottom:1px solid grey; 
+  border-bottom: 1px solid #ececec;
+
 }
- tr:last-child td{border-bottom: 5px solid red;}
-/* .table td:nth-last-child(3){border-bottom: 1px solid red;} */
-#lunch{border-bottom: 5px solid red;}
+ tr:last-child td{border-bottom: 5px solid #e70010;}
+#lunch{border-bottom: 5px solid #e70010;}
 tr:nth-child(odd){
-  background-color: rgb(156, 156, 156);
+  background-color: #f3f3f3;
 }
 caption{padding:20px}
 
@@ -42,9 +38,17 @@ caption{padding:20px}
   margin-left: 100px;
 }
 h5{
-  color:red;
-  /* padding: 10px; */
+  color:#e70010;
 }
 #students{
   padding: 10px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.studentsContacts{
+  display: flex;
+  justify-content: center;
+  margin-right:100px ;
 }
